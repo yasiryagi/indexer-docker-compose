@@ -19,7 +19,7 @@ services:
     restart: always
 	
   indexer-agent:
-    image: graphprotocol/indexer-service:latest
+    image: graphprotocol/indexer-agent:latest
     ports:
           - "8200:8000"
           - "8220:8020"
